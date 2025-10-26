@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Streamlit & cache
+.streamlit/
+*.db
+*.sqlite
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files (optional, if large or sensitive)
+data/
+*.csv
+*.json
+
+
+# IDE/editor files
+.vscode/
+
+# Secrets / config
+.env
+secrets.toml
